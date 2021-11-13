@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg:  #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 60px;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 250ms; 
+}
+
+html {
+  font-size: 62.5%; /* 1 rem is now 1px */
+  box-sizing: inherit;
+  min-width: 450px; /* jag hatar css så jävla mycket */
+}
+
+body {
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 400;
+  line-height: 1.6;
+  /* background-color: #F8FFE5; */
+  /* background-color: #f4fffb; */
+  background-color: #F0F2F5;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
